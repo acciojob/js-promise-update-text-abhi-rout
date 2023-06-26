@@ -6,7 +6,7 @@ function generatePromise(){
 		 },1000)
 	 })
  }
-generatePromise.then((data)=>{
+generatePromise().then((data)=>{
 	const element=document.getElementById("output");
 	element.innerText=data;
 })
